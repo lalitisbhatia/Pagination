@@ -10,3 +10,9 @@
     -- total-count   // any call to searc sohuld send the total count<br>
 
 - The example here has an illustrative controller and a utility service example that returns mock data for search.
+
+## Usage
+ Simply add to html like this:<br>
+ ```
+    <results-paginate watch-data="results" search-function="getResults();" pagenum-var="pageNum" res-per-page="{{resCount}}" page-num="{{pageNum}}" total-count="{{totalResults}}"></results-paginate>
+ ```
